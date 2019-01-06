@@ -8,9 +8,9 @@ module.exports = {
   events: async () => {
     try {
       const events = await Event.find()
-        return events.map(event => {
-          return transformEvent(event)
-        })
+      return events.map(event => {
+        return transformEvent(event)
+      })
     }catch(err) {
       console.log(err)
       throw err
