@@ -4,7 +4,7 @@ class BookingsPage extends Component {
   render() {
     return (
       <div>
-        <h1>The BookingsPage Page</h1>
+        <h1>The Bookings Page</h1>
       </div>
     );
   }
